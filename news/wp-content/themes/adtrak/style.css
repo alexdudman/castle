@@ -1,0 +1,28 @@
+/*
+ Theme Name:     Adtrak
+ Description:    Adtrak theme version 2, developed to add a blog on to the Web-Server and then on to a live website.
+ Author:         Adtrak
+ Author URI:     http://www.adtrak.co.uk
+ Version:        2.0.0
+
+Important - Do not add any styling into here; always add it to the master.css document
+
+*/
+
+.wsDemoVersion {
+	position: fixed;
+	left: 0;
+	font-size: 1.4em;
+	background: #eee;
+	padding: 15px;
+	bottom: 0;
+	width: 100%;
+	border-top: 3px solid orange;
+	opacity: 0.8;
+	z-index: 10;
+	text-align: center;
+}
+
+.wsDemoVersion:hover {
+	opacity: 1;
+}

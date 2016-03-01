@@ -1,0 +1,1067 @@
+/* SASS Variables */
+
+$goFullDesktop : 769px;
+
+$pinkcolor : #d43c74;
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-o-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin transition($speed) {
+	-webkit-transition: all $speed ease;
+	-ms-transition: all $speed ease;
+	-o-transition: all $speed ease;
+	-moz-transition: all $speed ease;
+	transition: all $speed ease;
+}
+
+@mixin gradient($from, $to) {
+	/* fallback/image non-cover color */  	background-color: $from;
+	/* Firefox 3.6+ */  					background: -moz-linear-gradient($from, $to);
+	/* Safari 4+, Chrome 1+ */  			background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+	/* Safari 5.1+, Chrome 10+ */  			background: -webkit-linear-gradient($from, $to);
+	/* Opera 11.10+ */  					background: -o-linear-gradient($from, $to);
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+/* HTML5 Elements */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+	display: block;
+}
+
+/* Font Face
+--------------------------------------------------------------- */
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../../includes/fonts/lato-bol-webfont.eot');
+	src: url('../../includes/fonts/lato-bol-webfont.eot?#iefix') format('eot'),
+         url('../../includes/fonts/lato-bol-webfont.woff') format('woff'),
+         url('../../includes/fonts/lato-bol-webfont.ttf') format('truetype'),
+         url('../../includes/fonts/lato-bol-webfont.svg') format('svg');
+    font-weight: 600;
+    font-style: bold;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Lato';
+        src: url('../../includes/fonts/lato-bol-webfont.svg') format('svg');
+
+    }
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../../includes/fonts/lato-reg-webfont.eot.eot');
+	src: url('../../includes/fonts/lato-reg-webfont.eot.eot?#iefix') format('eot'),
+         url('../../includes/fonts/lato-reg-webfont.eot.woff') format('woff'),
+         url('../../includes/fonts/lato-reg-webfont.eot.ttf') format('truetype'),
+         url('../../includes/fonts/lato-reg-webfont.eot.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Lato';
+        src: url('../../includes/fonts/lato-reg-webfont.eot.svg') format('svg');
+
+    }
+}
+
+h1, h2 {
+	font-family: "Lato", Sans-Serif;
+	font-weight: 600;
+}
+	
+/* Global Styles
+--------------------------------------------------------------- */
+
+* {	margin: 0; padding: 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; *behavior: url(includes/scripts/boxsizing.htc);}
+
+body, html { min-height: 101%; background: #fff; }
+
+strong { font-weight: bold; }
+
+body {
+	text-align: left;
+	font-size: 62.5%;
+	line-height: 1;
+	font-family: Sans-Serif;
+	color: #000000;
+	background: url(../../images/layout/body-bg.jpg) #b5e1e4 top repeat;
+}
+
+a, a:visited, a:focus {
+	color: #0000FF;
+	text-decoration: underline;
+	outline: none;
+}
+
+	a:focus {
+		outline: dotted 1px;
+	}
+
+a:hover, a:active {
+	color: #000;
+	text-decoration: underline;
+}
+
+a img {
+	border: none;
+}
+
+/* IE7 upgrade alert */
+
+	.ie7 {
+		width: 100%;
+		font-size: 1.3em;
+		font-family: serif;
+		padding: 10px 0;
+		text-align: center;
+		background: #eee;
+	}
+
+/* For screen readers */
+
+header a.skip-to-content {
+	display: none;
+}
+
+/* H1/H2/H3 Styles
+--------------------------------------------------------------- */
+
+h1, h2, h3 {
+	font-weight: 600;
+}
+
+	h1 {
+		font-size: 2.0em;
+		line-height: 1.5em;
+		color: #d43c74;
+	}
+	
+	h2 {
+		font-size: 1.4em;
+		color: #333;
+	}
+	
+	h3 {
+		font-size: 1.3em;
+		color: #666;
+	}
+
+	section {
+		width: 100%;
+		float: left;
+		font-size:1.2em;
+	}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			position: relative;
+			padding: 10px;
+
+			@media only screen and (min-width: 1200px) {
+				padding: 10px;
+			}
+		}
+		
+/* Header Styles
+--------------------------------------------------------------- */
+
+header {
+	background: #ffff00;
+	border-top: #cdcdcd 1px solid;
+	border-bottom: #cdcdcd 1px solid;
+	height: 131px;
+	width: 100%;
+	font-size: 1.2em;
+	margin-top: 50px; /* Make this the same as the height of the .phone-top div */
+	
+	@media only screen and (min-width: $goFullDesktop) {
+		margin-top: 0;
+		height: 144px;
+	}
+
+	.container {
+		min-height: 130px;
+		max-width: 1200px;
+
+		.logo-container {
+
+			@media only screen and (min-width: $goFullDesktop) {
+				width: 33.3%;
+				float: left;
+			}
+
+			.logo {
+				width: 267px;
+				padding: 30px 50px 0px 0px;
+				margin: 0 auto;
+				display: block;
+				width: 267px;
+
+				@media only screen and (min-width: $goFullDesktop) {
+					margin: 0 auto;
+					width: 267px;
+					float: left;
+				}
+
+				&:hover {
+					opacity: 0.8;
+				}
+			}	
+		}
+		
+		
+		.phone-top {
+			padding: 0px 10px;
+			width: 100%;
+			background: #d43c74;
+			color: #fff;
+			line-height: 1.3em;
+			font-size: 1.2em;
+			text-align: left;
+			height: 50px;  /* Make this the same as the header margin-top */
+			position: fixed;
+			z-index: 1000;
+			top: 0px;
+			left: 0px;
+
+			.phone {
+				background: url(../../images/layout/phone-mobile.png) 10px 6px no-repeat;
+				background-size: 20px 34px;
+				font-size: 1.5em;
+				text-align: center;
+				padding: 15px 0px 15px 30px;
+				font-family: "Lato", Sans-Serif;
+				font-weight: normal;
+				max-width: 240px;
+				margin: 0 auto;
+			}
+
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+
+			a.facebook {
+				display: none;
+			}
+
+			@media only screen and (min-width: $goFullDesktop) {
+				float: right;
+				color: #da5a68;
+				padding: 7px 0px;
+				font-size: 1.6em;
+				background: none;
+				position: relative;
+				width: 33.3%;
+
+				.phone {
+					display: block;
+					background: url(../../images/layout/phone.png) 0px 0px no-repeat;
+					background-size: 25px 45px;
+					margin: 0px 0px 0px 0px!important;
+					float: right;
+					padding: 15px 0px 15px 55px;
+					font-size: 1.0em;
+					text-align: left;
+					min-width: 220px;
+				}
+
+				a.facebook {
+					color: #da5a68;
+					background: url(../../images/layout/facebook.png) no-repeat 3px 0px;
+					background-size: 45px 45px;
+					padding: 15px 0px 15px 55px;
+					margin: 0px 0px 0px 0px!important;
+					float: right;
+					text-decoration: none;
+					display: block;
+					min-width: 220px;
+
+					&:hover {
+						cursor: pointer;
+						opacity: 0.8;
+					}
+				}
+			}
+
+			.ld-areanum {
+				display: inline-block;
+			}
+
+		}
+
+	}
+
+}
+
+
+/* Horizontal Navigation Styles
+--------------------------------------------------------------- */
+
+.menu-button {
+	width: 35px;
+	float: left;
+	a {
+		display: block;
+		padding: 40px 0px;
+		img {
+			width: 100%;
+		}
+	}
+
+	@media only screen and (min-width: $goFullDesktop) {
+		display: none;
+	}
+}
+
+nav.nav-collapse {
+	background: #d43c74;
+	ul {
+		background: #d43c74;
+		padding: 0px;
+		font-family: "Lato", Sans-Serif;
+		margin: 0 auto;
+		max-width: 1200px;
+		li {
+			@media only screen and (min-width: $goFullDesktop) {
+				width: 16%;
+				float: left;
+				text-align: center;
+			}
+			a {
+				font-size: 1.7em;
+				color: #fff;
+				text-decoration: none;
+				display: block;
+				padding: 15px 0px 15px 10px;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+/* Responsive Nav Styles
+/*! responsive-nav.js 1.0.39 by @viljamis */
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+.nav-collapse li {
+  width: 100%;
+  display: block;
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+
+  @media only screen and (min-width: $goFullDesktop) {
+	position: relative!important;
+  }
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
+
+/* Active Styles
+-------------------------------*/
+
+$collection: (index, castle-slide, bouncy-castle, sumo-suit-hire, contact);
+
+@each $page in $collection {
+    body.#{$page} nav.nav-collapse ul li.#{$page} a,
+    body.#{$page} ul.slicknav_nav li.#{$page} a {
+        background: #e44a83;
+    }
+}
+
+		
+/* Runner Styles
+--------------------------------------------------------------- */
+
+section.outer-runner {
+	background: #ccc;
+	display: none;
+
+	@media only screen and (min-width: $goFullDesktop) {
+		display: none;
+	}
+}
+
+	.runner {
+		max-width: 1200px;
+		height: auto;
+		margin: 0 auto;
+		padding: 0;
+		background: #ccc;
+	}
+
+		.imgmain {
+			float: left;
+			width: 100%;
+		}
+
+/* Tick Styles
+--------------------------------------------------------------- */
+
+section.outer-ticks {
+	background: #eee;
+	padding: 25px 10px;
+	font-family: "Lato", Sans-Serif;
+	
+
+	h1 {
+		margin: 0 auto;
+		text-align: center;
+		color: #699699;
+		font-size: 2.1em;
+		font-weight: 600;
+	}
+
+	.ticks {
+		max-width: 1200px;
+		height: auto;
+		margin: 0 auto;
+
+		ul li  {
+			list-style: none;
+			background: url(../../images/misc/pink-tick.png) no-repeat 0px 8px;
+			background-size: 29px 23px;
+			padding: 9px 0px 9px 35px;
+			margin: 4px 0px;
+			font-size: 1.6em;
+			color: $pinkcolor;
+			font-weight: 400;
+		}
+
+		/* Media Query - Min 769 */
+		@media only screen and (min-width: $goFullDesktop) {
+			ul li {
+				width: 50%;
+				float: left;
+			}
+		}
+			
+		/* Media Query - Min 1200 */
+		@media only screen and (min-width: 1200px) {
+			ul li a {
+				width: 25%;
+			}
+		}
+	}
+
+}
+
+		
+				
+/* Main Styles
+--------------------------------------------------------------- */
+
+section.outer-main-aside {
+	padding: 15px 0px;
+}
+
+	.main {
+		float: none;
+		width: 100%;
+		padding: 10px 0;
+		font-size: 1.2em;
+		line-height: 1.6em;
+	
+		@media only screen and (min-width: $goFullDesktop) {
+			float: left;
+			width: 50%;
+		}
+
+		p {
+			margin: 10px 0px 10px 0px;
+			line-height: 1.8em;
+			color: #505050;			
+		}
+		
+		ul {
+			margin: 10px 0;
+		
+			li {
+				padding: 4px 0 4px 25px;
+				list-style: none;
+				background: url(../../images/misc/tick.png) left center no-repeat;
+			}
+
+		}
+
+		img.img-left {
+			margin: 10px 10px 10px 0;
+			float: left;
+		}
+
+		img.img-right {
+			margin: 10px 0 10px 10px;
+			float: right;
+		}
+
+		img.mainimg {
+			padding: 10px 0px 0px 0px;
+			width: 100%;
+		}
+
+		blockquote {
+			width: 100%;
+			background: #eee;
+			background:
+				url(../../images/misc/quote-open.png) no-repeat left top,
+				url(../../images/misc/quote-close.png) no-repeat right bottom,
+				#eee;
+			padding: 20px 30px;
+		}
+
+		.cta-bottom {
+			width: 100%;
+			background: #eee;
+			padding: 5px 10px 10px 10px;
+		}
+	}
+
+	.left-main {
+		padding: 0px;
+
+		@media only screen and (min-width: $goFullDesktop) {
+			padding: 10px 20px 0px 0px;
+		}
+	}
+
+	.right-main {
+		padding: 0px;
+
+		@media only screen and (min-width: $goFullDesktop) {
+			padding: 10px 0px 0px 0px;
+		}
+	}
+
+	.wide-main {
+		padding: 0px;
+
+		p {
+			margin: 10px 0px 10px 0px;
+			line-height: 1.8em;	
+			float: left;	
+			width: 100%;
+			font-size: 1.2em;
+			color: #505050;
+		}
+
+		img {
+			width: 100%;
+			float: left;
+			padding: 0px 0px 15px 0px;
+		}
+
+		@media only screen and (min-width: $goFullDesktop) {
+			padding: 10px 0px 0px 0px;
+			float: left;
+			width: 100%;
+
+			img {
+				width: 50%;
+				float: left;
+				padding: 0px 15px 15px 0px;
+			}
+
+			p {
+				width: 50%;
+
+			}
+		}
+
+		.call-cta {
+			color: #da5a68;
+			font-size: 1.8em;
+			line-height: 1.3em;
+			padding: 0px 0px 0px 40px;
+			background: url(../../images/layout/call-cta.png) no-repeat left;
+			background-size: 30px 55px;
+
+			span {
+				display: block;
+				font-size: 1.3em;
+
+				a {
+					color: #da5a68;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+
+/* Aside Styles
+--------------------------------------------------------------- */
+		
+	aside {
+		float: none;
+		width: 100%;
+		padding: 10px 0;
+		font-size: 1.2em;
+	
+		@media only screen and (min-width: $goFullDesktop) {
+			float: right;
+			width: 30%;
+		}
+	}
+
+/* Footer Styles
+--------------------------------------------------------------- */
+
+footer {
+	float: left;
+	width: 100%;
+	color: #333;
+	font-size: 1.3em;
+	background: #f4f4f4;
+	border-top: #cdcdcd 1px solid;
+	border-bottom: #cdcdcd 1px solid;
+
+	p {
+		line-height: 1.6em;
+
+	}
+
+	.title {
+		font-weight: bold;
+		font-size: 1.1em;
+		margin: 15px 0 0 0;
+	}
+
+	li {
+		list-style: none;
+		margin: 0;
+		line-height: 1.2em;
+		padding: 0;
+
+		a {
+			padding: 4px 0px;
+			display: inline-block;
+			@include transition(0.3s);
+
+			&:hover {
+			}
+
+			&.parent {
+			}
+		}
+	}
+
+	@media only screen and (min-width: $goFullDesktop) {
+		.footer-nav {
+			ul {
+				float: left;
+				display: inline;
+			}
+			li {
+				float: left;
+				display: inline;
+			}
+			a {
+				float: left;
+				display: inline-block;
+				padding: 5px 20px 5px 0;
+			}
+		}
+
+		.col {
+			width: 33.3%;
+			float: left;
+		}
+
+		.footer-bottom {
+			clear: both;
+			text-align: left;
+
+		}
+	}
+
+}
+
+
+/* Generic Styles
+--------------------------------------------------------------- */
+
+.clearfix {
+	clear: both;
+}
+
+.inline {
+	display: inline;
+}
+
+/* Callback Form Styles
+--------------------------------------------------------------- */
+
+.callback-form {
+	margin: 10px 0;
+	background: #f4f4f4;
+	padding: 25px;
+	display: block;
+	border: 1px #e1e1e1 solid;
+
+	.title {
+		font-weight: bold;
+		margin: 0 0 15px 0;
+		color: #699699;
+		font-size: 1.7em;
+	}
+
+	.botBuster {
+		display: none;
+	}
+
+	fieldset {
+		margin: 3px 0;
+		border: none;
+		width: 100%;
+		padding: 0px 10px 0px 0px;
+		float: left;
+		display: block;
+
+		@media only screen and (min-width: 650px) {
+			
+			width: 25%;
+		}
+	}
+
+	input, select {
+		display: inline-block;
+		width: 100%;
+		padding: 10px;
+		font-size: 1.3em;
+		@include border-radius(3px);
+	}
+
+	select.dropdown {
+		background: #d43c74;
+		height: 42px;
+		color: #fff;
+	}
+
+	#results ul li {
+		list-style: none;
+		margin:0px;
+		padding: 2px 0px 2px 25px;
+		background: url(../../images/misc/warning.png) center left no-repeat;
+	}
+
+	.submit {
+		background: #d43c74;
+		border: #cdcdcd solid 1px;
+		color: #fff;
+		@include border-radius(3px);
+
+
+		font-family: "Lato", Sans-Serif;
+		font-weight: 600;
+
+		&:hover {
+			opacity: 0.8;
+			cursor: pointer;
+		}
+
+	}
+
+}
+
+/* Castle Blog Wordpress Styles
+--------------------------------------------------------------- */
+
+.castle-blog {
+	aside {
+		padding: 40px 0px 10px 0px;
+
+		@media only screen and (min-width: $goFullDesktop) {
+			padding: 10px 0px;
+		}
+
+
+		ul.xoxo {
+			font-family: "Lato", Sans-Serif;
+			list-style: none;
+
+			li {
+				ul {
+					list-style: none;
+					padding: 8px 0px 20px 0px;
+				}
+			}
+
+			li.widget_search {
+				background: #ccc;
+				padding: 10px;
+				margin: 0px 0px 10px 0px;
+
+				input {
+					padding: 10px 5px;
+					display: block;
+					margin: 8px 0px;width: 100%;
+
+					&#searchsubmit {
+						background: $pinkcolor;
+						padding: 10px;
+						border: none;
+						color: #fff;
+					}
+				}
+			}
+		}
+
+		a {
+			color: #699699;
+		}
+
+		h3 {
+			color: $pinkcolor;
+		}
+	}
+
+	h1 {
+		a {
+			color: $pinkcolor;
+		}
+	}
+
+	.post {
+		a {
+			color: $pinkcolor;
+		}
+	}
+
+	article {
+		a {
+			color: $pinkcolor;
+		}
+	}
+}
+
+/* Contact Form Styles
+--------------------------------------------------------------- */
+
+.contact-form {
+	width: 100%;
+	float: left;
+	padding: 0px 0px 20px 0px;
+
+	.contactFormLeft {
+		padding: 0px 0px 15px 0px;
+	}
+
+	@media screen and (min-width: $goFullDesktop) {
+		width: 50%;
+		padding: 0px 15px 20px 0px;
+	}
+
+	
+	fieldset {
+		border: none;
+		clear: both;
+	
+		&.contactDetails {
+
+			.contactDetailsLeft,
+			.contactDetailsRight {
+				font-size: 1.5em;
+				color: #505050;
+			}
+
+			label {
+				width: 100%;
+				float: left;
+				padding: 5px 0px 5px 0px;
+				display: block;
+				color: #505050;
+			}
+		
+			input {
+				width: 100%;
+				padding: 10px 5px;
+				background: #EFF1F0;
+				border: 1px solid #ddd;
+				border-top: 1px solid #ccc;
+				float: left;
+				border-radius: 2px;
+
+				&:focus {
+					border: 1px solid #0F76C3;
+				}
+			}
+
+			textarea {
+
+				&:focus {
+					border: 1px solid #0F76C3;
+				}
+
+			}
+				
+			div.wrap {
+				width: 100%;
+				float: left;
+			}
+
+			@media screen and (min-width: 480px) {
+				div.wrap {
+					width: 50%;
+					padding: 0 5px 0 0;
+				}
+			}
+
+		}
+
+		.interestedInLeft,
+		.interestedInRight {
+			label {
+				font-size: 1.4em;
+				padding: 10px 0px;
+				float: left;
+				width: 50%;
+			}
+		}
+		
+		label.enquiry {
+			padding: 15px 0px 5px 0px;
+			display: block;
+			color: #0F76C3;
+			font-size: 1.4em;
+		}
+		
+		textarea {
+			padding: 10px;
+			width: 100%;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 1em;
+			background: #EFF1F0;
+			border: 1px solid #ddd;
+			border-radius: 3px;
+			float: left;
+		}
+		
+		.submit {
+			background: #d43c74;
+			color: #fff;
+			display: block;
+			margin-top: 10px;
+			border: none;
+			padding: 15px 5px;
+			clear: both;
+			width: 50%;
+			float: left;
+			font-size: 1.3em;
+
+			&:hover {
+				background: #d43c74;
+				text-decoration: underline;
+				cursor: pointer;
+			}
+		}
+	}
+			
+	p.whatareyoulookingfor {
+		color: #d43c74;
+		padding: 15px 0px 10px 0px;
+		margin: 0px;
+	}
+	
+	.interested-in div {
+		width: 100%;
+		float: left;
+		padding: 4px 0px;
+	}
+
+	@media screen and (min-width: 480px) {
+		.interested-in div {
+			width: 50%;
+		}
+	}
+
+}
+
+/* PHP Error Results */
+
+#results {
+	color: #7F2D0F;
+	font-weight: bold;
+	clear: both;
+
+	ul {
+		margin: 10px;
+
+		li {
+			list-style: none;
+			margin: 0px;
+			background:red;
+			padding: 8px 0px 8px 25px;
+			background: url(../../images/misc/warning.png) center left no-repeat!important;
+		}
+	}
+}
+	
+/* -------------- Hide Bot Buster */
+
+fieldset.botBuster {
+	display: none;
+}
+
+
+
+/* Cookies */
+@import "partials/_cookies";
+
+/* jQuery Validation */
+@import "partials/_jquery.validation";

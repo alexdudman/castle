@@ -1,0 +1,696 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"contactD",
+				"contactDetailsLeft"
+			],
+			[
+				"location",
+				"locationPage"
+			],
+			[
+				"ses",
+				"_SESSION"
+			],
+			[
+				"loungeFu",
+				"loungeFurnitureSession"
+			],
+			[
+				"lounge",
+				"loungeFurnitureSession"
+			],
+			[
+				"che",
+				"checkFurniture"
+			],
+			[
+				"session",
+				"session_destroy"
+			],
+			[
+				"page",
+				"page_adtrak"
+			],
+			[
+				"sub",
+				"sub-title"
+			],
+			[
+				"gallery",
+				"gallery-navigation"
+			],
+			[
+				"dropdown",
+				"dropdown-bg"
+			],
+			[
+				"Din",
+				"DINWeb"
+			],
+			[
+				"call",
+				"call-today"
+			],
+			[
+				"cta-",
+				"cta-tyre-range"
+			],
+			[
+				"imgmainConta",
+				"imgmainContainerInner"
+			],
+			[
+				"contactForm",
+				"contactFormRight"
+			],
+			[
+				"branch",
+				"branch-accordion"
+			],
+			[
+				"bran",
+				"branch-accordion"
+			],
+			[
+				"strrep",
+				"str_replace"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"testi",
+				"testimonials"
+			],
+			[
+				"left",
+				"left-sidebar-nav"
+			],
+			[
+				"Titi",
+				"TitilliumRegular"
+			],
+			[
+				"titi",
+				"TitilliumBold"
+			],
+			[
+				"Titill",
+				"TitilliumRegular"
+			],
+			[
+				"Mortgage",
+				"mortgageForm"
+			],
+			[
+				"countdown",
+				"countdown_dashboard"
+			],
+			[
+				"count",
+				"countdown_dashboard"
+			],
+			[
+				"Tit",
+				"TitilliumRegular"
+			],
+			[
+				"Tii",
+				"TitilliumBold"
+			],
+			[
+				"Ti",
+				"TitilliumRegular"
+			],
+			[
+				"Til",
+				"TitilliumLight"
+			],
+			[
+				"Titilli",
+				"TitilliumThin"
+			],
+			[
+				"lettingsM",
+				"lettingsMaxPrice"
+			],
+			[
+				"array",
+				"arrayFromPHP"
+			],
+			[
+				"company",
+				"companyAddress_Sherwood"
+			],
+			[
+				"international",
+				"international-child-abduction"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"edit ",
+				"Snippet: div class snippet"
+			],
+			[
+				"Snippet: ",
+				"Snippet: p-class"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"Snippet: div",
+				"Snippet: div class snippet"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Z/[x] HTML5 Template/includes/css/dynamic-styling.php",
+		"/Z/[x] HTML5 Template/index.php",
+		"/Z/[x] HTML5 Template/includes/core/head-includes.php",
+		"/Z/[x] HTML5 Template/includes/css/master.css",
+		"/Z/ben-shaw/barnes-and-partners/includes/content/nav.php",
+		"/Z/ben-shaw/barnes-and-partners/personal-services.php",
+		"/Z/ben-shaw/barnes-and-partners/about.php",
+		"/Z/ben-shaw/barnes-and-partners/our-team.php",
+		"/Z/ben-shaw/barnes-and-partners/ware.php",
+		"/Z/ben-shaw/barnes-and-partners/stoke-newington.php",
+		"/Z/ben-shaw/barnes-and-partners/pinner.php",
+		"/Z/ben-shaw/barnes-and-partners/harlow.php",
+		"/Z/ben-shaw/barnes-and-partners/enfield.php",
+		"/Z/ben-shaw/barnes-and-partners/edmonton.php",
+		"/Z/ben-shaw/barnes-and-partners/crouch-end.php",
+		"/Z/ben-shaw/barnes-and-partners/chingford.php",
+		"/Z/ben-shaw/barnes-and-partners/cheshunt.php",
+		"/Z/ben-shaw/barnes-and-partners/stevenage.php",
+		"/Z/ben-shaw/barnes-and-partners/branch-locator.php",
+		"/Z/ben-shaw/barnes-and-partners/low-cost-conveyancing.php",
+		"/Z/ben-shaw/barnes-and-partners/includes/content/branches-array.php",
+		"/Z/ben-shaw/barnes-and-partners/professional-negligence.php",
+		"/Z/ben-shaw/barnes-and-partners/contractual-disputes.php",
+		"/Z/ben-shaw/barnes-and-partners/civil-litigation.php",
+		"/Z/ben-shaw/barnes-and-partners/debt-recovery.php",
+		"/Z/ben-shaw/barnes-and-partners/employment-law.php",
+		"/Z/ben-shaw/barnes-and-partners/business-purchasing.php",
+		"/Z/ben-shaw/barnes-and-partners/commercial-property.php",
+		"/Z/ben-shaw/barnes-and-partners/tenancy-disputes.php",
+		"/Z/ben-shaw/barnes-and-partners/family-law.php",
+		"/Z/ben-shaw/barnes-and-partners/divorce.php",
+		"/Z/ben-shaw/barnes-and-partners/child-issues.php",
+		"/Z/ben-shaw/barnes-and-partners/injunctions-domestic-abuse.php",
+		"/Z/ben-shaw/barnes-and-partners/wills-probate.php",
+		"/Z/ben-shaw/barnes-and-partners/contesting-will.php",
+		"/Z/ben-shaw/barnes-and-partners/estate-disputes.php",
+		"/Z/ben-shaw/barnes-and-partners/mental-health.php",
+		"/Z/ben-shaw/barnes-and-partners/power-attorney.php",
+		"/Z/ben-shaw/barnes-and-partners/conveyancing.php",
+		"/Z/ben-shaw/barnes-and-partners/legal-aid.php",
+		"/Z/ben-shaw/barnes-and-partners/commercial-services.php",
+		"/Z/ben-shaw/barnes-and-partners/includes/css/master.css",
+		"/Z/ben-shaw/barnes-and-partners/includes/css/dynamic-styling.php",
+		"/Z/ben-shaw/barnes-and-partners/includes/content/privacy-policy.php",
+		"/Z/ben-shaw/barnes-and-partners/includes/css/slider.css",
+		"/Z/ben-shaw/barnes-and-partners/.htaccess",
+		"/Z/ben-shaw/barnes-and-partners/index.php",
+		"/Z/ben-shaw/barnes-and-partners/includes/content/runner.php",
+		"/Z/ben-shaw/barnes-and-partners/includes/content/accreditations.php",
+		"/Z/ben-shaw/barnes-and-partners/includes/content/header.php",
+		"/Z/ben-shaw/barnes-and-partners/includes/scripts/run.js",
+		"/Z/ben-shaw/barnes-and-partners/includes/fonts/oflgoudystmtt-regular.woff",
+		"/Z/ben-shaw/barnes-and-partners/includes/content/focus-testimonial.php",
+		"/Z/ben-shaw/barnes-and-partners/includes/content/focus-img.php",
+		"/Z/ben-shaw/barnes-and-partners/includes/css/print.css",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/forms/contact-form.php",
+		"/Z/[x] HTML5 Template/includes/forms/contact-form.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/cambridge-branch.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/ld/phonenumbers.json",
+		"/Z/xavier-hodgetts/the-windscreen-company/colchester-branch.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/windscreen-replacement.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/.htaccess",
+		"/Z/xavier-hodgetts/the-windscreen-company/burystedmunds-branch.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/css/master.css",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/forms/callback-form-mailer.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/forms/callback-form.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/head/analytics.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/index.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/meta-tags/meta-tags.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/chelmsford-branch.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/norwich-branch.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/romford-branch.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/windscreen-repair.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/runner.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/site_specific/defines.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/head/scripts.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/locations.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/branches.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/sidebar.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/contact.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/mobile-engineers.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/bottom-cta.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/ipswich-branch.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/header.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/footer.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/cta-fully-comp.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/cta-local-branch.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/nav.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/sn-windscreen-repair.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/head/stylesheets.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/about-us.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/agricultural-plant-windscreens.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/auto-glass-repair.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/bus-coach-windscreens.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/car-window-replacement.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/chip-repairs.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/commercial-windscreens.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/cookies-privacy-policy.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/fleet-windscreens.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/replacement-rear-windows.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/replacement-side-windows.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/thankyou.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/van-windscreens.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/404error.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/buckets.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/cookies-privacy-policy.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/cta-back-on-road.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/navigation.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/sn-commercial-windscreens.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/content/top-nav.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/css/dynamic-styling.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/includes/scripts/branch-script.php",
+		"/Z/xavier-hodgetts/the-windscreen-company/thankyou.php.php",
+		"/C/Users/tom.nightingale/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/Z/keith/data-shred/includes/css/master.css",
+		"/Z/ben-shaw/apex-self-access-storage/includes/content/transport-links.php",
+		"/Z/ben-shaw/apex-self-access-storage/index.php",
+		"/Z/ben-shaw/apex-self-access-storage/includes/content/runner.php",
+		"/Z/paul/preston-cable-granulation/includes/css/master.css",
+		"/Z/paul/preston-cable-granulation/includes/content/sidebar.php",
+		"/C/Users/tom.nightingale/Desktop/survey_email.php",
+		"/Z/andy-king/advance-fuels/includes/css/master.css",
+		"/Z/andy-king/advance-fuels/.htaccess",
+		"/Z/andy-king/advance-fuels/site_specific/defines.php",
+		"/Z/andy-king/advance-fuels/includes/forms/callback-form.php",
+		"/Z/andy-king/advance-fuels/includes/forms/contact-form.php",
+		"/Z/ben-shaw/at-maycock-munster-tyres/includes/forms/callback-form.php",
+		"/Z/ben-shaw/at-maycock-munster-tyres/thankyou-callback.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<project>",
+			"<open folders>",
+			"",
+			"<project>",
+			"<open files>",
+			"",
+			"<open files>",
+			"<open files>,<open folders>",
+			"<open files>",
+			"<open files>,<open folders>",
+			"<open files>,,<open folders>",
+			"<open files>",
+			"<open folders>",
+			"<open files>",
+			"",
+			"<open files>",
+			"<open folders>",
+			"<open files>",
+			"<open folders>",
+			"<open files>,<open folders>",
+			"<open files>",
+			"",
+			"<open folders>",
+			"<open files>",
+			"",
+			"<open files>",
+			"<open folders>",
+			"<open files>",
+			"<open folders>",
+			"Z:\\keith\\fresh-opportunities",
+			"Z:\\keith\\fresh-opportunities\\"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"family-law",
+			"locator",
+			"class=\"focus-testimonial\"",
+			"accreditations",
+			"a.btn",
+			".btn",
+			"cambridge",
+			"Ipswich",
+			".green-cta",
+			"Romford",
+			"ul.add",
+			"additional",
+			"cracks",
+			"ins tock",
+			"The Windscreen Company",
+			"project",
+			"main",
+			".submit",
+			"header",
+			"5px",
+			"position: relative;",
+			"contact",
+			"runner-section span",
+			"navigation",
+			"main",
+			"header",
+			"orange",
+			"probate",
+			"></",
+			"wills-pro",
+			"contentious",
+			"probate",
+			"contentiou",
+			"contentious",
+			"elogo",
+			"Braizery",
+			"0",
+			"ld-bg",
+			"}\n",
+			"edmunds",
+			"ä",
+			"www.alphapowercleaners.co.uk",
+			"ä",
+			"download",
+			"main",
+			"equipment",
+			"7em",
+			"footer",
+			"www.advancefuels.co.uk",
+			"\">\n",
+			"?>\n",
+			"forms",
+			"buckets",
+			"				\n",
+			"3em",
+			"window",
+			"Contact us today for more information",
+			"')",
+			"{\n",
+			"Alpha Power Cleaners",
+			"Karcher",
+			"Kärcher",
+			"Karcher",
+			"%",
+			"nth",
+			"#top",
+			"top-right-nav",
+			"sidebar",
+			"h2",
+			"well",
+			"menu-button",
+			"menu-box",
+			"h",
+			"icon-caret",
+			"menu-button.onstate",
+			".menu-button",
+			"head",
+			"Installations",
+			"sidebar",
+			"’",
+			"Welwyn Garden City",
+			"#boiler-services",
+			"worcester-bosch",
+			"#main p",
+			"subnav",
+			"St Albans",
+			"#main",
+			"main p",
+			"dropdown",
+			"sidebar",
+			"Darlington",
+			"main-runner",
+			"subnav",
+			"thincol",
+			"Citroen Peugeot Specialists Ltd",
+			"’",
+			"repairs",
+			"runner-heading",
+			"footer",
+			".title",
+			"450px",
+			"height",
+			"locksmiths-locksmith-bickley-br2-24-hour-emergency-bars-grills-gates",
+			".sub",
+			"adtrakdemo.co.uk/castlegate",
+			"border",
+			"\".large\"",
+			"postcode",
+			"Posting",
+			">\n",
+			"contact",
+			"main",
+			"container",
+			"{\n",
+			"':",
+			"active",
+			"124 1737",
+			"0203 124 1737",
+			"phonenumber",
+			"www.quadrica.co.uk",
+			"?> ",
+			"Quadrica",
+			"quadrica",
+			"Quadrica",
+			"Quadrica Electrical Services",
+			"Quadrica",
+			"subnav",
+			"<div id=\"index-tweet-feed\">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Braziery",
+			"<?php echo $location; ?>",
+			"",
+			"<?php echo $companyName; ?>",
+			"Ealing",
+			"Acton",
+			"<img class=\"right\" src=\"images/imgcontent/<?php echo $page; ?>.jpg\" alt=\"<?php echo $pagekw; ?>\" />",
+			"ul.sidebar-why-choose",
+			"em/",
+			")</span>",
+			"class=\"container\"",
+			"\"Tw Cen MT\", \"Century Gothic\", \"URW Gothic L\", Arial, sans-serif;",
+			"em/",
+			"<?php echo $companyName; ?>",
+			"",
+			"/",
+			"CHAPS",
+			"/",
+			"02476 327577",
+			"H2o",
+			"<?php echo $companyName; ?>",
+			"<p>Type: <span class=\"type\"></span></p>",
+			"<span>&pound;</span>",
+			"Solicitor",
+			"<li>",
+			"<a href=\"our-people.php\">View Full Profile</a></p>",
+			"",
+			"&pound;",
+			"<li>",
+			"dispute-resolution",
+			"<li>",
+			"<?php echo $phonenumber; ?>",
+			"<li>",
+			"$gallery = \"glass-products\";",
+			"$sidebarNav = \"glass-products\";",
+			"&amp;",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"master",
+				"includes/css/master.css"
+			],
+			[
+				"class-connect.php",
+				"uk-aftermarket-2012/admin/includes/class-connect.php"
+			],
+			[
+				"includes/content/index-runner.php",
+				"uk-aftermarket-2012/includes/content/index-runner.php"
+			],
+			[
+				"includes/content/quick-search.ph",
+				"uk-aftermarket-2012/includes/content/quick-search.php"
+			],
+			[
+				"master.scss",
+				"lee-glass/includes/css/master.scss"
+			],
+			[
+				"master.css",
+				"clockwork-removals-adtrak/includes/css/master.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"barnes",
+				"/Q/Sublime Projects/Barnes & Partners.sublime-project"
+			],
+			[
+				"london",
+				"/Q/Sublime Projects/London Electric Design.sublime-project"
+			],
+			[
+				"",
+				"/Q/Sublime Projects/Touchstone Worktops.sublime-project"
+			],
+			[
+				"angel",
+				"/Q/Sublime Projects/Angel Blinds And Shutters.sublime-project"
+			],
+			[
+				"clockwork",
+				"/Q/Sublime Projects/Clockwork Removals.sublime-project"
+			],
+			[
+				"cityscra",
+				"/Q/Sublime Projects/City Scrap.sublime-project"
+			],
+			[
+				"alpha",
+				"/Q/Sublime Projects/Alpha Power Cleaners.sublime-project"
+			],
+			[
+				"best",
+				"/Q/Sublime Projects/Best Solicitors.sublime-project"
+			],
+			[
+				"web",
+				"/C/Users/tom.nightingale/Desktop/Projects/Web Template.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true
+}

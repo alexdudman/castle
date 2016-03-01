@@ -1,0 +1,31 @@
+## MOD_REWRITES
+###################################################
+RewriteEngine On
+
+## Non-www rewrite, won't take effect on web-server
+#
+RewriteCond %{HTTP_HOST} !=web-server
+RewriteCond %{HTTP_HOST} !=85.118.233.10
+RewriteCond %{HTTP_HOST} !=adtrakdemo.co.uk
+RewriteCond %{HTTP_HOST} !=www.adtrakdemo.co.uk
+RewriteCond %{HTTP_HOST} !^www\..* [NC]
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+## Index page redirect (unless POSTing)
+#
+RewriteCond %{REQUEST_METHOD} !^POST$ [NC]
+RewriteCond %{HTTP_HOST} !=web-server
+RewriteCond %{HTTP_HOST} !=85.118.233.10
+RewriteCond %{HTTP_HOST} !=adtrakdemo.co.uk
+RewriteCond %{HTTP_HOST} !=www.adtrakdemo.co.uk
+RewriteRule ^index\.(?:html|htm|php|cfm)(.*) http://%{HTTP_HOST}/$1 [R=301,L,NE]
+
+
+## ERROR PAGES
+###################################################
+ErrorDocument 404 /404error.php
+
+
+## STANDARD REDIRECTS
+###################################################
+Redirect 301	/oldpage.html				/newpage.php

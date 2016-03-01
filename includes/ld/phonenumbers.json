@@ -1,0 +1,18 @@
+{
+    "locationdynamics": {
+        "default": {
+            "area": "The UK",
+            "calltag": "Call us on",
+            "source": {
+                "organic": {
+                    "computer": "07897 378 934",
+                    "mobile": "07897 378 934"
+                },
+                "google-adwords": {
+                    "computer": "",
+                    "mobile": ""
+                }
+            }
+        }
+    }
+}

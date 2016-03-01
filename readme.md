@@ -7,6 +7,3 @@ Hello
 Bonjour
 
 Ola
-
-
-Yes

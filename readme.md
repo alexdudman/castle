@@ -6,10 +6,4 @@ Hello
 
 Bonjour
 
-<<<<<<< HEAD
-Ola
-=======
-Ola
-
-No
->>>>>>> master
+Clean

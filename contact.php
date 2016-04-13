@@ -60,7 +60,10 @@
 
                 <?php include ("includes/forms/contact-form.php"); ?>
 
-                <img class="mainimg" src="images/imgmain/castle.jpg" alt="Image of castle slide">
+                <div class="owl-carousel">
+                    <div class="item"><img src="images/imgmain/slide.jpg" alt="Image of castle slide"></div>
+                    <div class="item"><img src="images/imgmain/frozenslide.jpg" alt="Image of castle slide"></div>
+                </div>
 
             </article>
 

@@ -7,6 +7,24 @@ $(".callback-form").validationEngine();
 //To setup Adtrak Cookies
 $('body').adtrakCookies();
 
+//Owl Carousel
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
 // MENU
 
 var navigation = responsiveNav(".nav-collapse", {

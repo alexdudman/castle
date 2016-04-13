@@ -58,13 +58,20 @@
 
             <article id="main" class="wide-main">
 
-                <img class="mainimg" src="images/imgmain/slide.jpg" alt="Image of castle slide">
+                <div class="owl-carousel">
+                    <div class="item"><img src="images/imgmain/frozenslide.jpg" alt="Image of castle slide"></div>
+                    <div class="item"><img src="images/imgmain/slide.jpg" alt="Image of castle slide"></div>
+                </div>
                 
                 <h1>Castle Slide</h1>
 
                 <p>Castle slides operate through out the East Midlands offering excellent value for hiring out this gigantic 25 foot high slide. We are also available for festivals, private parties, fairs, special occasions, weddings and birthdays.</p>
 
-                <p>We are fully tested and up to date, our staff are fully trained and we will deliver your slide on time.</p>
+                <p>We are fully tested and up to date, our staff are fully trained and we will deliver your slide on time.</p>   
+
+                <h2>Frozen Themed Slide</h2>
+
+                <p>We now have a brand new frozen themed giant slide available for the 2016 season!</p>
 
                 <p>Why not come and talk to us at Wellsbourne market every Saturday or at Castle Donnington market every Sunday?</p>
 

@@ -10,6 +10,7 @@
 <!-- Stylesheets -->
 
 <link href="includes/css/master.css" rel="stylesheet" media="all" />
+<link href="includes/css/owl.carousel.css" rel="stylesheet" media="all" />
 <link rel="shortcut icon" href="favicon.ico" />
 
 <!-- Scripts -->

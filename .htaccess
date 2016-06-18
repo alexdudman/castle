@@ -28,4 +28,4 @@ ErrorDocument 404 /404error.php
 
 ## STANDARD REDIRECTS
 ###################################################
-Redirect 301	/oldpage.html				/newpage.php
+Redirect 301	/castle-slide.php				/giant-slides.php

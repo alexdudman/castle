@@ -37,7 +37,7 @@
 
     <section class="outer-ticks">
 
-        <h1>Castle Slides East Midlands</h1>
+        <h1>Giant Slides East Midlands</h1>
 
         <div class="ticks container">
 
@@ -61,9 +61,10 @@
                 <div class="owl-carousel">
                     <div class="item"><img src="images/imgmain/frozenslide.jpg" alt="Image of castle slide"></div>
                     <div class="item"><img src="images/imgmain/slide.jpg" alt="Image of castle slide"></div>
+                    <div class="item"><img src="images/imgmain/frozenslide3.jpg" alt="Image of castle slide"></div>
                 </div>
                 
-                <h1>Castle Slide</h1>
+                <h1>Giant Slides</h1>
 
                 <p>Castle slides operate through out the East Midlands offering excellent value for hiring out this gigantic 25 foot high slide. We are also available for festivals, private parties, fairs, special occasions, weddings and birthdays.</p>
 

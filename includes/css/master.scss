@@ -421,7 +421,7 @@ nav.nav-collapse {
 /* Active Styles
 -------------------------------*/
 
-$collection: (index, castle-slide, bouncy-castle, sumo-suit-hire, contact);
+$collection: (index, giant-slides, bouncy-castle, sumo-suit-hire, contact);
 
 @each $page in $collection {
     body.#{$page} nav.nav-collapse ul li.#{$page} a,
